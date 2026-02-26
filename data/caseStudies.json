@@ -1,0 +1,26 @@
+[
+    {
+        "id": "case-1",
+        "title": "Premium Beverage Labeling",
+        "client": "Premium Beverage Labeling",
+        "metric": "30% faster production",
+        "description": "Implemented high-speed shrink sleeve application for new product line, achieving 30% faster production rates while maintaining zero-defect quality standards.",
+        "image": "/images/case-studies/coca-cola.png"
+    },
+    {
+        "id": "case-2",
+        "title": "Pharmaceutical Compliance",
+        "client": "Pharmaceutical Compliance",
+        "metric": "100% compliance achieved",
+        "description": "Developed tamper-evident smart labels with serialization for pharmaceutical products, ensuring complete regulatory compliance and supply chain visibility.",
+        "image": "/images/case-studies/jnj.png"
+    },
+    {
+        "id": "case-3",
+        "title": "Sustainable Dairy Packaging",
+        "client": "Dairy Packaging",
+        "metric": "40% waste reduction",
+        "description": "Transitioned to linerless labels for dairy products, reducing packaging waste by 40% while improving operational efficiency and sustainability metrics.",
+        "image": "/images/case-studies/amul.png"
+    }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "labels",
+    "name": "Labels",
+    "products": [
+      {
+        "id": "self-adhesive",
+        "name": "Self-Adhesive Labels",
+        "description": "Premium quality self-adhesive labels for diverse applications with superior adhesion and durability.",
+        "specs": [
+          "Materials: Paper, PP, PE, PET",
+          "Adhesives: Permanent, removable, freezer-grade",
+          "Printing: Flexo, digital, offset",
+          "Finishes: Matte, gloss, metallic",
+          "Applications: Food, beverage, pharmaceutical, industrial"
+        ],
+        "image": "/images/products/self-adhesive-dashmesh.png"
+      },
+      {
+        "id": "linerless",
+        "name": "Linerless Labels",
+        "description": "Eco-friendly linerless labels reducing waste while maintaining high performance standards.",
+        "specs": [
+          "No backing liner - 40% waste reduction",
+          "Variable length printing",
+          "Heat-resistant adhesive",
+          "Ideal for logistics and food service",
+          "Cost-effective and sustainable"
+        ],
+        "image": "/images/products/linerless-dashmesh.png"
+      },
+      {
+        "id": "smart-labels",
+        "name": "Smart Labels",
+        "description": "RFID and NFC-enabled smart labels for tracking, authentication, and interactive experiences.",
+        "specs": [
+          "RFID/NFC chip integration",
+          "Anti-counterfeiting features",
+          "Track & trace capabilities",
+          "Temperature monitoring options",
+          "Pharmaceutical and luxury goods applications"
+        ],
+        "image": "/images/products/smart-labels-dashmesh.png"
+      },
+      {
+        "id": "wrap-around",
+        "name": " BOPP/Wrap around labels",
+        "description": " BOPP/Wrap around labels providing maximum branding space and 360° visibility.",
+        "specs": [
+          "Full-body coverage",
+          "High-speed application compatible",
+          "Excellent clarity and print quality",
+          "Suitable for bottles and containers",
+          "Beverage and personal care industries"
+        ],
+        "image": "/images/products/wrap-around-dashmesh.png"
+      },
+      {
+        "id": "shrink-sleeve",
+        "name": "Shrink Sleeve Labels",
+        "description": "360° shrink sleeves offering tamper-evidence and stunning graphics on complex shapes.",
+        "specs": [
+          "PVC, PETG, OPS materials",
+          "Full-body decoration",
+          "Tamper-evident sealing",
+          "Conforms to irregular shapes",
+          "High-definition graphics"
+        ],
+        "image": "/images/products/shrink-sleeve-dashmesh.png"
+      },
+      {
+        "id": "in-mould",
+        "name": "In-Mould Labels",
+        "description": "High-durability labels fused directly into the container during moulding for a seamless look.",
+        "specs": [
+          "Integrated look and feel",
+          "Superior durability and scratch resistance",
+          "100% recyclable with the container",
+          "High-resolution photographic quality",
+          "Ideal for injection moulded containers"
+        ],
+        "image": "/images/products/in-mold-dashmesh.png"
+      }
+    ]
+  },
+  {
+    "id": "films-flexible",
+    "name": "Films & Flexible Packaging",
+    "products": [
+      {
+        "id": "laminated-films",
+        "name": "Laminated Films",
+        "description": "Multi-layer laminated films for superior barrier protection and extended shelf life.",
+        "specs": [
+          "Multi-layer barrier structures",
+          "Moisture and oxygen protection",
+          "High puncture resistance",
+          "Customizable barrier properties",
+          "Food and pharmaceutical use"
+        ],
+        "image": "/images/products/laminated-films-dashmesh.png"
+      },
+      {
+        "id": "flexible-pouches",
+        "name": "Flexible Packaging Pouches",
+        "description": "Customizable pouches including stand-up, flat, and spout pouches for retail visibility.",
+        "specs": [
+          "Stand-up, zipper, and spout options",
+          "High-impact shelf presence",
+          "Lightweight and material efficient",
+          "Retort and hot-fill capable",
+          "Ideal for snacks, liquids, and pet food"
+        ],
+        "image": "/images/products/flexible-pouches-dashmesh.png"
+      },
+      {
+        "id": "ldpe-shrink",
+        "name": "LDPE Shrink Films",
+        "description": "Cost-effective and durable LDPE shrink films for secure bundling and transit protection.",
+        "specs": [
+          "Excellent clarity and strength",
+          "Consistent shrinkage properties",
+          "Multipack collation",
+          "Printable for branding",
+          "Beverage and canned goods bundling"
+        ],
+        "image": "/images/products/ldpe-shrink-dashmesh.png"
+      },
+      {
+        "id": "multilayer-barrier",
+        "name": "Multilayer & Barrier Films",
+        "description": "Advanced co-extruded films offering specific barrier properties for sensitive products.",
+        "specs": [
+          "EVOH/PA barrier layers",
+          "Extended shelf life integration",
+          "Aroma and flavor preservation",
+          "Vacuum and MAP packaging",
+          "Meat, cheese, and fresh produce"
+        ],
+        "image": "/images/products/multilayer-barrier-dashmesh.png"
+      },
+      {
+        "id": "lid-laminates",
+        "name": "Alluminium Foil Lid",
+        "description": "Heat-seal Alluminium Foil Lid laminates for dairy, food, and pharmaceutical containers ensuring freshness.",
+        "specs": [
+          "Peelable and lock-seal options",
+          "Universal heat-seal compatibility",
+          "High puncture resistance",
+          "Easy-open convenience",
+          "Dairy, yogurt, and ready-to-eat meals"
+        ],
+        "image": "/images/products/lid-laminates-dashmesh.png"
+      }
+    ]
+  },
+  {
+    "id": "industrial-bulk",
+    "name": "Industrial & Bulk Packaging",
+    "products": [
+      {
+        "id": "industrial-bags",
+        "name": "Industrial Bags & Rolls",
+        "description": "Heavy-duty industrial bags and rolls designed for bulk packaging and rugged applications.",
+        "specs": [
+          "HDPE, LDPE, PP materials",
+          "Custom sizes and heavy gauges",
+          "High tensile strength",
+          "UV-stabilized options",
+          "Agriculture, chemicals, construction"
+        ],
+        "image": "/images/products/industrial-bags-dashmesh.png"
+      },
+      {
+        "id": "garment-polybags",
+        "name": "Garment Polybags",
+        "description": "Crystal clear polybags for apparel protection, display, and logistics.",
+        "specs": [
+          "High clarity films",
+          "Self-seal adhesive strips",
+          "Vent holes and hanger cuts available",
+          "Custom printing for branding",
+          "Textile and retail logistics"
+        ],
+        "image": "/images/products/garment-polybags-dashmesh.png"
+      },
+      {
+        "id": "shrink-wraps",
+        "name": "Shrink Wraps",
+        "description": "Heavy-duty shrink wraps for securing pallet loads and large industrial items.",
+        "specs": [
+          "High holding force",
+          "Puncture and tear resistant",
+          "UV protection for outdoor storage",
+          "Machine and manual application",
+          "Logistics and warehousing"
+        ],
+        "image": "/images/products/shrink-wraps-dashmesh.png"
+      },
+      {
+        "id": "mono-cartons",
+        "name": "Mono Cartons",
+        "description": "Foldable mono cartons for retail secondary packaging with high-quality printing.",
+        "specs": [
+          "Recyclable paperboard materials",
+          "Offset printing with special effects",
+          "Embossing and foil stamping",
+          "Custom structural designs",
+          "FMCG, pharma, and cosmetics"
+        ],
+        "image": "/images/products/mono-cartons-dashmesh.png",
+        "tag": "Coming Soon"
+      },
+      {
+        "id": "courier-bags",
+        "name": "Courier Bags",
+        "description": "Secure, tamper-proof courier bags designed for e-commerce and logistics efficiency.",
+        "specs": [
+          "Tear-resistant & waterproof material",
+          "Strong permanent adhesive seal",
+          "POD jacket for documentation",
+          "Custom branding & size options",
+          " ideal for e-commerce shipping"
+        ],
+        "image": "/images/products/courier-bags-dashmesh.png"
+      },
+      {
+        "id": "alluminium-foil-lid-punching-machine",
+        "name": "Alluminium Foil Lid Punching machine ",
+        "description": "Secure, tamper-proof courier bags designed for e-commerce and logistics efficiency.",
+        "specs": [
+          "Tear-resistant & waterproof material",
+          "Strong permanent adhesive seal",
+          "POD jacket for documentation",
+          "Custom branding & size options",
+          " ideal for e-commerce shipping"
+        ],
+        "image": "/images/products/courier-bags-dashmesh.png"
+      }
+    ]
+  }
+]

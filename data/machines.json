@@ -1,0 +1,110 @@
+[
+    {
+        "id": "machine-1",
+        "name": "Flexographic Press 8-Color",
+        "purpose": "High-volume production with superior color consistency.",
+        "capabilities": [
+            "High Speed",
+            "8-Color Precision",
+            "Inline Finishing"
+        ],
+        "specs": [
+            "8-color UV flexographic printing",
+            "Web width: 330mm - 430mm",
+            "Speed: up to 150 m/min",
+            "Servo-driven registration",
+            "Inline die-cutting and lamination"
+        ],
+        "image": "/images/machines/multitec-s1.png"
+    },
+    {
+        "id": "machine-2",
+        "name": "Digital Label Press",
+        "purpose": "Agile production for short runs and variable data.",
+        "capabilities": [
+            "Rapid Prototyping",
+            "Personalization",
+            "No Setup Cost"
+        ],
+        "specs": [
+            "HP Indigo digital technology",
+            "Variable data printing",
+            "Short-run capabilities",
+            "1200 dpi resolution",
+            "Inline finishing options"
+        ],
+        "image": "/images/machines/HP6600.png"
+    },
+    {
+        "id": "machine-3",
+        "name": "Shrink Sleeve Gluing and Cutting Machine",
+        "purpose": "Automated 360° application for complex shapes.",
+        "capabilities": [
+            "360° Branding",
+            "High Speed",
+            "Complex Shapes"
+        ],
+        "specs": [
+            "High-speed sleeve application",
+            "Handles various container shapes",
+            "Steam tunnel integration",
+            "Up to 400 containers/min",
+            "Automated quality inspection"
+        ],
+        "image": "/images/machines/shrink-sleeve.jpeg"
+    },
+    {
+        "id": "machine-4",
+        "name": "IML Die Cutting",
+        "purpose": "Multi-layer protection for barrier properties.",
+        "capabilities": [
+            "Barrier Protection",
+            "Solvent-less",
+            "Eco-Friendly"
+        ],
+        "specs": [
+            "Multi-layer lamination",
+            "Solvent-less adhesive system",
+            "Web width: up to 1350mm",
+            "Precision tension control",
+            "Inline corona treatment"
+        ],
+        "image": "/images/machines/iml-die-cutting.png"
+    },
+    {
+        "id": "machine-5",
+        "name": "Rotary Die-Cutting Unit",
+        "purpose": "Precision cutting for intricate packaging shapes.",
+        "capabilities": [
+            "Precision Cut",
+            "High Efficiency",
+            "Complex Geometry"
+        ],
+        "specs": [
+            "Magnetic cylinder system",
+            "Quick job changeover",
+            "Precision cutting ±0.1mm",
+            "Waste matrix removal",
+            "Speed: up to 120 m/min"
+        ],
+        "image": "/images/machines/rotary-die-cutting-unit.png"
+    },
+    {
+        "id": "machine-6",
+        "name": "Slitting & Rewinding Machine",
+        "purpose": "Defect-free finishing for automated application lines.",
+        "capabilities": [
+            "Tension Control",
+            "Defect Detection",
+            "Perfect Winding"
+        ],
+        "specs": [
+            "Automatic tension control",
+            "Multiple slitting stations",
+            "Core diameter: 76mm - 152mm",
+            "Web inspection system",
+            "Turret rewinding for continuous operation"
+        ],
+        "image": "/images/machines/slitting-rewinding-machine.png"
+    }
+]
