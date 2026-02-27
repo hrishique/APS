@@ -32,11 +32,11 @@ export default function Footer() {
                     <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10">
                         {/* Contact Info Compact */}
                         <div className="flex gap-6 text-sm font-bold opacity-80" style={{ color: 'var(--muted-light)' }}>
-                            <a href="mailto:Info@anjaneyaprintpacksolutions.com" className="hover:text-white transition-colors flex items-center gap-2">
+                            <a href="mailto:anjaneyaprintpacksolutions@gmail.com" className="hover:text-white transition-colors flex items-center gap-2">
                                 <Mail size={14} className="text-accent" />
-                                <span>Info@anjaneyaprintpacksolutions.com</span>
+                                <span>anjaneyaprintpacksolutions@gmail.com</span>
                             </a>
-                            <a href="tel:+917496961627" className="hover:text-white transition-colors flex items-center gap-2 hidden sm:flex">
+                            <a href="tel:+917496961628" className="hover:text-white transition-colors flex items-center gap-2 hidden sm:flex">
                                 <Phone size={14} className="text-accent" />
                                 <span>+91-7496961627/28/29/30</span>
                             </a>

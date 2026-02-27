@@ -71,8 +71,9 @@ export default function Contact() {
                             </div>
                             <h4 className="text-xl font-black mb-2 text-primary">Headquarters</h4>
                             <p className="text-sm font-bold text-muted leading-relaxed">
-                                Anjaneya Print Pack Solutions<br />
-                                Phase 2, Bangalore, KA 560099
+                                Plot 293, Phase 1,HSIIDC, Barhi Industrial Estate<br />
+                                Sonipat, Haryana - 131001<br />
+
                             </p>
                         </div>
 
