@@ -7,6 +7,32 @@ import { ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
 const slides = [
     {
         id: 1,
+        heading: "Premium Brand Presence",
+        subheading: "Self-Adhesive Labels",
+        description: "Versatile, high-performance labels with superior adhesion for food, pharma, and luxury goods.",
+        images: [
+            "/images/products/self-adhesive-dashmesh.png",
+            "/images/products/self-adhesive.png",
+            "/images/products/smart-labels-dashmesh.png"
+        ],
+        accentColor: "#f43f5e",
+        bgGradient: "from-rose-500/10 to-transparent"
+    },
+    {
+        id: 2,
+        heading: "Ultra-Strong Bundle Protection",
+        subheading: "LDPE Shrink Film",
+        description: "Industrial-grade durability ensures secure transit and high-clarity branding for multipack collation.",
+        images: [
+            "/images/products/ldpe-shrink-dashmesh.png",
+            "/images/products/shrink-wraps-dashmesh.png",
+            "/images/products/laminated-films-dashmesh.png"
+        ],
+        accentColor: "#8b5cf6",
+        bgGradient: "from-violet-500/10 to-transparent"
+    },
+    {
+        id: 3,
         heading: "360° Branding & Shelf Impact",
         subheading: "High-Definition Shrink Sleeves",
         description: "Maximize your product visibility with full-body shrink sleeves that conform to any container shape.",
@@ -15,11 +41,11 @@ const slides = [
             "/images/products/shrink-sleeve-dashmesh.png",
             "/images/products/ldpe-shrink-dashmesh.png"
         ],
-        accentColor: "var(--accent)", // Use CSS variable or a specific hex
-        bgGradient: "from-accent/10 to-transparent"
+        accentColor: "#f97316", // Orange
+        bgGradient: "from-orange-500/10 to-transparent"
     },
     {
-        id: 2,
+        id: 4,
         heading: "Intelligent Security & Trackability",
         subheading: "Smart RFID/NFC Labels",
         description: "Protect your brand and streamline supply chains with advanced smart labeling technology.",
@@ -28,11 +54,11 @@ const slides = [
             "/images/products/smart-labels-dashmesh.png",
             "/images/products/self-adhesive.png"
         ],
-        accentColor: "#3b82f6", // Example distinct color per slide
+        accentColor: "#3b82f6",
         bgGradient: "from-blue-500/10 to-transparent"
     },
     {
-        id: 3,
+        id: 5,
         heading: "Superior Barrier Protection",
         subheading: "Advanced Flexible Laminates",
         description: "Engineered multi-layer films ensuring prolonged freshness and robust protection for products.",
@@ -45,14 +71,14 @@ const slides = [
         bgGradient: "from-emerald-500/10 to-transparent"
     },
     {
-        id: 4,
+        id: 6,
         heading: "Seamless Integration & Durability",
         subheading: "In-Mould Labels (IML)",
         description: "Labels fused directly into the packaging for a permanent, premium look without secondary application.",
         images: [
             "/images/products/in-mold.png",
             "/images/products/in-mold-dashmesh.png",
-            "/images/products/lid-laminates-dashmesh.png"
+            "/images/products/lid-laminates-dashmesh.jpeg"
         ],
         accentColor: "#f59e0b",
         bgGradient: "from-amber-500/10 to-transparent"
@@ -67,7 +93,7 @@ export default function Hero() {
     useEffect(() => {
         const timer = setInterval(() => {
             setCurrent((prev) => (prev + 1) % slides.length);
-        }, 3000);
+        }, 5000); // Increased to 5s for better readability
         return () => clearInterval(timer);
     }, []);
 
@@ -129,8 +155,8 @@ export default function Hero() {
                             </div>
 
                             <h1 className="text-5xl md:text-6xl lg:text-[5rem] font-black leading-[1.05] tracking-tight text-primary">
-                                {slides[current].heading.split(' ').map((word, i) => (
-                                    <span key={i} className={i > 2 ? 'inline-block' : ''} style={{ color: i > 2 ? slides[current].accentColor : 'inherit' }}>
+                                {slides[current].heading.split(' ').map((word, i, arr) => (
+                                    <span key={i} className={i >= arr.length - 2 ? 'inline-block' : ''} style={{ color: i >= arr.length - 2 ? slides[current].accentColor : 'inherit' }}>
                                         {word}{' '}
                                     </span>
                                 ))}

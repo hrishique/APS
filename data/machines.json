@@ -106,5 +106,23 @@
             "Turret rewinding for continuous operation"
         ],
         "image": "/images/machines/slitting-rewinding-machine.png"
+    },
+    {
+        "id": "machine-7",
+        "name": "LDPE Film 3 Layer machine",
+        "purpose": "High-performance co-extrusion for superior film strength and clarity.",
+        "capabilities": [
+            "3-Layer Co-extrusion",
+            "High Strength",
+            "Enhanced Clarity"
+        ],
+        "specs": [
+            "3-layer co-extrusion technology",
+            "Material: LDPE, LLDPE, HDPE",
+            "Output: up to 250 kg/hr",
+            "Width: up to 1500mm",
+            "Automatic thickness control"
+        ],
+        "image": "/images/machines/ldpeFilm3.jpeg"
     }
 ]

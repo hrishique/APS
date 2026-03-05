@@ -150,7 +150,7 @@
           "Easy-open convenience",
           "Dairy, yogurt, and ready-to-eat meals"
         ],
-        "image": "/images/products/lid-laminates-dashmesh.png"
+        "image": "/images/products/lid-laminates-dashmesh.jpeg"
       }
     ]
   },
@@ -214,19 +214,6 @@
       {
         "id": "courier-bags",
         "name": "Courier Bags",
-        "description": "Secure, tamper-proof courier bags designed for e-commerce and logistics efficiency.",
-        "specs": [
-          "Tear-resistant & waterproof material",
-          "Strong permanent adhesive seal",
-          "POD jacket for documentation",
-          "Custom branding & size options",
-          " ideal for e-commerce shipping"
-        ],
-        "image": "/images/products/courier-bags-dashmesh.png"
-      },
-      {
-        "id": "alluminium-foil-lid-punching-machine",
-        "name": "Alluminium Foil Lid Punching machine ",
         "description": "Secure, tamper-proof courier bags designed for e-commerce and logistics efficiency.",
         "specs": [
           "Tear-resistant & waterproof material",
