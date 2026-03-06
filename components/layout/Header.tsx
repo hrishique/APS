@@ -1,5 +1,7 @@
 'use client';
 
+import Link from 'next/link';
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
@@ -45,13 +47,15 @@ export default function Header() {
             animate={{ opacity: 1, x: 0 }}
             className="flex items-center pl-2 md:pl-4"
           >
-            <div className="flex flex-col">
-              <img
+            <Link href="/" className="flex items-center space-x-2 shrink-0">
+              <Image
                 src="/images/logo.png"
-                alt="APS Logo"
-                className="h-24 md:h-28 lg:h-36 w-auto object-contain"
+                alt="Anjaneya Print Pack Solutions Logo"
+                width={200}
+                height={64}
+                className="h-10 md:h-16 w-auto object-contain"
               />
-            </div>
+            </Link>
           </motion.div>
 
           {/* Desktop Navigation */}
@@ -107,13 +111,15 @@ export default function Header() {
             className="md:hidden fixed inset-0 bg-white z-[60] flex flex-col"
           >
             <div className="flex items-center justify-between h-24 px-6 border-b">
-              <div className="flex flex-col">
-                <img
+              <Link href="/" className="flex items-center space-x-2" onClick={() => setIsMobileMenuOpen(false)}>
+                <Image
                   src="/images/logo.png"
-                  alt="APS Logo"
-                  className="h-28 w-auto object-contain"
+                  alt="Anjaneya Print Pack Solutions Logo"
+                  width={160}
+                  height={48}
+                  className="h-12 w-auto object-contain"
                 />
-              </div>
+              </Link>
               <button
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="p-2.5 rounded-xl bg-gray-50"

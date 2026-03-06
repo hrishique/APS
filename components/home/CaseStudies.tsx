@@ -4,6 +4,7 @@ import { useState, useCallback, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import useEmblaCarousel from 'embla-carousel-react';
 import { ChevronLeft, ChevronRight, ArrowRight } from 'lucide-react';
+import Image from 'next/image';
 
 export interface CaseStudy {
     id: string;
@@ -76,10 +77,11 @@ export default function CaseStudies({ caseStudies }: CaseStudiesProps) {
                                             {study.image ? (
                                                 <>
                                                     <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent z-10" />
-                                                    <img
+                                                    <Image
                                                         src={study.image}
                                                         alt={study.title}
-                                                        className="w-full h-full object-cover"
+                                                        fill
+                                                        className="object-cover"
                                                     />
                                                     <div className="absolute bottom-6 left-6 z-20">
                                                         <span className="bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-black uppercase tracking-widest text-primary shadow-sm border border-white/50">

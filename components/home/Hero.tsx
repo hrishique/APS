@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
+import Image from 'next/image';
 
 const slides = [
     {
@@ -225,10 +226,12 @@ export default function Hero() {
                                             ${idx === 2 ? 'w-24 h-24 sm:w-40 sm:h-40 z-0 rounded-[2rem] -top-4 -left-4 md:-top-10 md:-left-10 opacity-80' : ''}
                                         `}
                                     >
-                                        <img
+                                        <Image
                                             src={img}
                                             alt={`${slides[current].subheading} ${idx + 1}`}
-                                            className="w-full h-full object-cover"
+                                            fill
+                                            priority={idx === 0}
+                                            className="object-cover"
                                         />
                                         <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent pointer-events-none" />
                                     </motion.div>

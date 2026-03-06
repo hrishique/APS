@@ -1,6 +1,7 @@
 'use client';
 
 import { Mail, Phone, MapPin } from 'lucide-react';
+import Image from 'next/image';
 
 
 
@@ -18,9 +19,11 @@ export default function Footer() {
 
                     {/* Brand & Tagline */}
                     <div className="text-center md:text-left flex flex-row items-center gap-4">
-                        <img
+                        <Image
                             src="/images/logo.png"
-                            alt="APS Logo"
+                            alt="Anjaneya Print Pack Solutions Logo"
+                            width={160}
+                            height={80}
                             className="h-20 w-auto object-contain grayscale brightness-200 contrast-200"
                         />
                         <p className="text-[10px] font-medium opacity-60 max-w-[120px] leading-tight text-left" style={{ color: 'var(--muted-light)' }}>

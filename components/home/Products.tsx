@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Package, ChevronRight } from 'lucide-react';
+import Image from 'next/image';
 
 export interface Product {
     id: string;
@@ -92,10 +93,11 @@ export default function Products({ products }: ProductsProps) {
                             >
                                 <div className="mb-6 relative w-full flex justify-center aspect-square items-center overflow-hidden rounded-2xl bg-gray-50">
                                     {product.image ? (
-                                        <img
+                                        <Image
                                             src={product.image}
                                             alt={product.name}
-                                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                            fill
+                                            className="object-cover transition-transform duration-500 group-hover:scale-110"
                                         />
                                     ) : (
                                         <div
@@ -184,10 +186,11 @@ export default function Products({ products }: ProductsProps) {
                             {/* Image Section - Left/Top */}
                             <div className="w-full md:w-2/5 h-64 md:h-auto bg-gray-50 relative overflow-hidden">
                                 {selectedProduct.image ? (
-                                    <img
+                                    <Image
                                         src={selectedProduct.image}
                                         alt={selectedProduct.name}
-                                        className="w-full h-full object-cover"
+                                        fill
+                                        className="object-cover"
                                     />
                                 ) : (
                                     <div className="w-full h-full flex items-center justify-center bg-gray-100">

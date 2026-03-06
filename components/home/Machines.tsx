@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence, useInView, useSpring, useMotionValue, useTransform } from 'framer-motion';
 import { X, Cog, ArrowRight, CheckCircle2, ShieldCheck, Microscope, ScanLine, Activity } from 'lucide-react';
+import Image from 'next/image';
 
 function CounterCard({ value, suffix = "", label, subtext }: { value: string, suffix?: string, label: string, subtext: string }) {
     const ref = useRef(null);
@@ -143,10 +144,11 @@ export default function Machines({ machines }: MachinesProps) {
                                 {machine.image ? (
                                     <div className="absolute inset-0 w-full h-full">
                                         <div className="absolute inset-0 bg-primary/10 group-hover:bg-primary/20 z-10 transition-colors" />
-                                        <img
+                                        <Image
                                             src={machine.image}
                                             alt={machine.name}
-                                            className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0"
+                                            fill
+                                            className="object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0"
                                         />
                                     </div>
                                 ) : (
