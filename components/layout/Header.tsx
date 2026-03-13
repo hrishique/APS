@@ -47,13 +47,17 @@ export default function Header() {
             animate={{ opacity: 1, x: 0 }}
             className="flex items-center pl-2 md:pl-4"
           >
-            <Link href="/" className="flex items-center space-x-2 shrink-0">
+            <Link href="/" className="flex items-center shrink-0 w-32 md:w-48 h-12 md:h-16 overflow-hidden relative">
+              {/* NOTE: Adjust logo size here. 
+                  - h-[X%]: controls total height 
+                  - scale-[X]: zooms in/out (use to remove/add whitespace) */}
               <Image
                 src="/images/logo.png"
                 alt="Anjaneya Print Pack Solutions Logo"
-                width={200}
-                height={64}
-                className="h-10 md:h-16 w-auto object-contain"
+                width={300}
+                height={300}
+                className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[180%] w-auto object-contain scale-[1.8] transition-all duration-300"
+                priority
               />
             </Link>
           </motion.div>
@@ -111,13 +115,13 @@ export default function Header() {
             className="md:hidden fixed inset-0 bg-white z-[60] flex flex-col"
           >
             <div className="flex items-center justify-between h-24 px-6 border-b">
-              <Link href="/" className="flex items-center space-x-2" onClick={() => setIsMobileMenuOpen(false)}>
+              <Link href="/" className="flex items-center w-32 h-12 overflow-hidden relative" onClick={() => setIsMobileMenuOpen(false)}>
                 <Image
                   src="/images/logo.png"
                   alt="Anjaneya Print Pack Solutions Logo"
-                  width={160}
-                  height={48}
-                  className="h-12 w-auto object-contain"
+                  width={200}
+                  height={200}
+                  className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[180%] w-auto object-contain scale-[1.8]"
                 />
               </Link>
               <button
